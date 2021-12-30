@@ -582,7 +582,7 @@ move_loop_end:
 .end_macro
 
 # -------------------------------------------------------- #
-# FUNCTION: MOVE A soldierS BY PLAYER1'S CHOICE            #
+# FUNCTION: MOVE A SOLDIER BY PLAYER1'S CHOICE             #
 # INPUT: $a0, $a1                                          #
 # %block_num = the block player chosen (1 - 5 & 6 - 10)    #
 # $direction = 0 for left, 1 for right                     #
@@ -976,7 +976,7 @@ capture_end:
 .end_macro
 
 # -------------------------------------------------------- #
-# FUNCTION: PLAYER1 CAPTURE A BLOCK                        #
+# FUNCTION: PLAYER2 CAPTURE A BLOCK                        #
 # INPUT: $a0, $a1                                          #
 # %block_num = the block player chosen (1 - 5 & 6 - 10)    #
 # $direction = 0 for left, 1 for right                     #
