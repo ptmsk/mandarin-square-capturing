@@ -305,7 +305,7 @@ end_player2_turn:
 # -------------------------------------------------------- #
 # FUNCTION: MOVE A SOLDIER CLOCKWISE                       #
 # INPUT: $a0                                               #
-# %block_num = the block chosen (1 - 5 & 7 - 11)           #
+# %block_num = the block player chosen (1 - 5 & 6 - 10)    #
 # OUTPUT: $v0 = the next block of last accessed block      #
 # Reserve: all register used                               #
 # -------------------------------------------------------- #
@@ -414,7 +414,7 @@ end_movecw:
 # -------------------------------------------------------- #
 # FUNCTION: MOVE A SOLDIER COUNTER CLOCKWISE               #
 # INPUT: $a0                                               #
-# %block_num = the block chosen (1 - 5 & 7 - 11)           #
+# %block_num = the block player chosen (1 - 5 & 6 - 10)    #
 # OUTPUT: $v0 = the next block of last accessed block      #
 # Reserve: all register used                               #
 # -------------------------------------------------------- #
@@ -528,7 +528,7 @@ end_moveccw:
 # -------------------------------------------------------- #
 # FUNCTION: MOVE A SOLDIER BY PLAYER2'S CHOICE             #
 # INPUT: $a0, $a1                                          #
-# %block_num = the block player chosen (1 - 5 & 7 - 11)    #
+# %block_num = the block player chosen (1 - 5 & 6 - 10)    #
 # $direction = 0 for left, 1 for right                     #
 # OUTPUT: $v0 = the next block of last accessed block      #
 # Reserve: all register used                               #
@@ -584,7 +584,7 @@ move_loop_end:
 # -------------------------------------------------------- #
 # FUNCTION: MOVE A soldierS BY PLAYER1'S CHOICE            #
 # INPUT: $a0, $a1                                          #
-# %block_num = the block player chosen (1 - 5 & 7 - 11)    #
+# %block_num = the block player chosen (1 - 5 & 6 - 10)    #
 # $direction = 0 for left, 1 for right                     #
 # OUTPUT: $v0 = the next block of last accessed block      #
 # Reserve: all register used                               #
@@ -640,7 +640,7 @@ move_loop_end:
 # -------------------------------------------------------- #
 # FUNCTION: CAPTURE BLOCKS CLOCKWISE                       #
 # INPUT: $a0, $a1                                          #
-# %block_num = the block player chosen (1 - 5 & 7 - 11)    #
+# %block_num = the block player chosen (1 - 5 & 6 - 10)    #
 # %player = Player 1/2  (0-1)                              #
 # Reserve: all register used                               #
 # -------------------------------------------------------- #
@@ -789,7 +789,7 @@ capture_loop_end:
 # -------------------------------------------------------- #
 # FUNCTION: CAPTURE BLOCKS COUNTER CLOCKWISE               #
 # INPUT: $a0, $a1                                          #
-# %block_num = the block player chosen (1 - 5 & 7 - 11)    #
+# %block_num = the block player chosen (1 - 5 & 6 - 10)    #
 # %player = Player 1/2  (0-1)                              #
 # Reserve: all register used                               #
 # -------------------------------------------------------- #
@@ -942,7 +942,7 @@ capture_loop_end:
 # -------------------------------------------------------- #
 # FUNCTION: PLAYER1 CAPTURE A BLOCK                        #
 # INPUT: $a0, $a1                                          #
-# %block_num = the block player chosen (1 - 5 & 7 - 11)    #
+# %block_num = the block player chosen (1 - 5 & 6 - 10)    #
 # $direction = 0 for left, 1 for right                     #
 # Reserve: all register used                               #
 # -------------------------------------------------------- #
@@ -978,7 +978,7 @@ capture_end:
 # -------------------------------------------------------- #
 # FUNCTION: PLAYER1 CAPTURE A BLOCK                        #
 # INPUT: $a0, $a1                                          #
-# %block_num = the block player chosen (1 - 5 & 7 - 11)    #
+# %block_num = the block player chosen (1 - 5 & 6 - 10)    #
 # $direction = 0 for left, 1 for right                     #
 # Reserve: all register used                               #
 # -------------------------------------------------------- #
