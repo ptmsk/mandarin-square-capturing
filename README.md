@@ -9,6 +9,11 @@ We hope this will take you back to your childhood.
 3. Lâm Phạm Trọng Phúc
 4. Trần Hoàng Nhật Huy
 
+# To play
+- You should have installed Mars4_5.jar or any version of Mars mips to compile our game.
+- If you have already had Mars mips, download all our file and run the file main.asm
+- Remember to open Bitmap display and setting as the instruction below, connect it to mips and run main.asm, now you can enjoy your game.
+
 # Bitmap display
 Some bitmap settings will be required for this game.
 - Unit Width in Pixels: 4
