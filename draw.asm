@@ -131,7 +131,7 @@ end_draw_init_loop1:
 		add		$s4, %start_num, %soldier_num
 s_loop:
 		beqz	%is_delay, s_loop_ignore_delay
-		delay(200)
+		delay(300)
 s_loop_ignore_delay:
 		beq		$s3, $s4, end_s_loop
 		move	$s0, $s6
@@ -643,7 +643,7 @@ add_s_p1_end:
 		add		$s3, %starting_num, %soldier_num
 		lw		$s1, point_color
 add_p:
-		delay(150)
+		delay(120)
 		beq		$s2, $s3, end_add_p
 		move	$s0, $s6
 		li		$s5, 15
@@ -702,7 +702,7 @@ remove_s_p1_end:
 		sub		$s3, $s2, %soldier_num
 		lw		$s1, bgr_color
 remove_s:
-		delay(200)
+		delay(300)
 		beq		$s2, $s3, end_remove_s
 		move	$s0, $s6
 		li		$s5, 15
