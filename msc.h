@@ -49,6 +49,7 @@ private:
     */
 private:
     Choice menu(bool &);
+    void rePlay();
     void displayRules();
     void displayBoard();
     void showResult(State state);
@@ -91,10 +92,26 @@ MSCGame::~MSCGame(){
     cout << "Thanks for playing~~";
 }
 
+void MSCGame::rePlay(){
+    for(int i = 0; i < 12; i++){
+        this -> blocks[i] = 5;
+    }
+    for(int i = 0; i < 12; i++){
+        this -> blocks[i] = 5;
+    }
+    this -> m1 = 0;
+    this -> m2 = 0;
+    this -> players.first.m = 0;
+    this -> players.first.p = 0;
+    this -> players.second.m = 0;
+    this -> players.second.p = 0;
+}
+
 void MSCGame::run() {
     Choice choice;
     bool played = false;
     while (true) {
+        if (played) this -> rePlay();
         choice = this->menu(played);
         if (choice == EXIT)
             break;
