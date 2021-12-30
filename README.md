@@ -11,12 +11,20 @@ We hope this will take you back to your childhood.
 
 # Game rules
 - Please add all files with tail ".asm" to play game.
+
+SET UP
 - Each player places one big stone or five small stones (called the "Mandarin piece") in the Mandarin square as well as five small stones (called "citizen pieces") in each of the rice field squares.
+
+OBJECTIVE
 - The game ends when all the pieces are captured.
 - If both Mandarin are captured, then the remaining pieces belong to the player controlling the side that the pieces are on. This is sometimes expressed by saying "Mandarin is gone, citizen dismisses, take back the army, selling the rice field''
 - Whichever player has more pieces is the winner (a Mandarin piece is equal to ten or five citizen pieces).
+
+SCATTERING
 - The first player takes up all the pieces of any rice field square on his/her side of the board and distribute one piece per square, starting at the next square in either direction. When all pieces are distributed, the player repeats by taking up the pieces of the following and distributing them.
 - If his/her of the board is empty, he/she must use five previous-won pieces to place one piece in each square on his/her side before repeating. If he/she does not have enough pieces, he/she must borrow a piece from the other player and return it when counting the points at the end of the game.
+
+CAPTURING
 - When the next square to be distributed is empty, the player wins all the pieces in the square after that. A square that contains a lot of pieces is the rich square.
 - When the next square is an empty Mandarin square, or the next two squares are empty, it becomes the other players' turn.
 - In some game variations, the Mandarin square that contains little citizen pieces called young Mandarin. In this case we can't capture this square.
