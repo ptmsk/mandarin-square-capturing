@@ -10,6 +10,7 @@ We hope this will take you back to your childhood.
 4. Trần Hoàng Nhật Huy
 
 # Game rules
+- Please add all files with tail ".asm" to play game.
 - Each player places one big stone or five small stones (called the "Mandarin piece") in the Mandarin square as well as five small stones (called "citizen pieces") in each of the rice field squares.
 - The game ends when all the pieces are captured.
 - If both Mandarin are captured, then the remaining pieces belong to the player controlling the side that the pieces are on. This is sometimes expressed by saying "Mandarin is gone, citizen dismisses, take back the army, selling the rice field''
