@@ -32,7 +32,7 @@ CAPTURING
 # To play
 - You should have installed Mars4_5.jar or any version of Mars mips to compile our game.
 - If you have already had Mars mips, download all our file and run the file main.asm
-- Remember to open Bitmap display and setting as the instruction below, connect it to mips and run main.asm, now you can enjoy your game.
+- Remember to open Bitmap display in Tools/Bitmap Display and setting as the instruction below, connect it to mips and run main.asm, now you can enjoy your game.
 
 # Bitmap display
 Some bitmap settings will be required for this game.
